@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: AQSoundscape
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Alessandro
+    name-particle: A
+    family-names: Fiordelmondo
+    email: fiordelmondo@dei.unipd.it
+    affiliation: CSC Padova
+    orcid: 'https://orcid.org/0000-0002-4670-5298'
+repository-code: 'https://github.com/alessandrofiordelmondo/AQSoundscape'
+abstract: >-
+  'Multichannels IoS Installation. Real-time Sonification of Air quality data (Max/MSP version)'
+keywords:
+  - Sound Installation
+  - Sonification
+  - Air Quality Data
+license: CC BY-NC 4.0

@@ -1,0 +1,59 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Finder settings
+Icon?
+._*
+
+# macOS metadata
+.AppleDouble/
+Network Trash Folder/
+Temporary Items/
+.Trashes/
+
+# Spotlight files
+.Spotlight-V100
+.TemporaryItems
+
+# Thumbs.db (for Finder's thumbnail cache)
+Thumbs.db
+
+# Xcode related files
+.idea/
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj
+*.xcscheme
+
+# VS Code settings
+.vscode/
+
+# JetBrains IDEs (e.g., IntelliJ IDEA, PyCharm, WebStorm)
+.idea/
+
+# Node.js modules (if you're working with Node.js)
+node_modules/
+
+# Python virtual environments (if you're working with Python)
+venv/
+*.egg-info/
+
+# Logs and temporary files
+*.log
+*.swp
+*.swo
+
+# Ruby on Rails
+*.rbc
+capybara-*.png
+coverage/
+spec/reports/
+
+# Other system files
+*.bak
+*.tmp
+
+# Specific AQSoundscape file to ignore
+apikey.txt
