@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1515.0, 959.0 ],
+		"rect" : [ 42.0, 95.0, 825.0, 943.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,55 @@
 		"subpatcher_template" : "af-template",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"autofit" : 1,
+					"forceaspect" : 1,
+					"id" : "obj-233",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 616.0, 845.0, 100.0, 35.0 ],
+					"pic" : "af:/Users/alessandrofiordelmondo/Documents/room/AQSoundscape/AQSoundscape/media/img/cc-by-nc.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 357.5, 803.250000739097572, 82.0, 28.699999999999999 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"forceaspect" : 1,
+					"id" : "obj-232",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 601.0, 830.0, 100.0, 42.027920646583397 ],
+					"pic" : "af:/Users/alessandrofiordelmondo/Documents/room/AQSoundscape/AQSoundscape/media/img/csc-logo-white.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 678.0, 780.0, 131.0, 55.056576047024244 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Source Code Pro",
+					"fontsize" : 16.0,
+					"id" : "obj-231",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1961.0, 193.899999260902405, 234.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 575.0, 751.0, 234.0, 27.0 ],
+					"text" : "Alessandro Fiordelmondo",
+					"textcolor" : [ 0.964705882352941, 0.964705882352941, 0.964705882352941, 1.0 ],
+					"textjustification" : 2
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-230",
 					"maxclass" : "newobj",
@@ -96,8 +145,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1848.0, 150.0, 347.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 468.0, 799.100000739097595, 347.0, 37.0 ],
-					"text" : "AQSoundscape DEMO",
+					"presentation_rect" : [ 462.0, 721.0, 347.0, 37.0 ],
+					"text" : "AQSoundscape",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -4790,77 +4839,91 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "abc-cue.js",
-				"bootpath" : "~/Desktop/2023-come_terra/code",
+				"bootpath" : "~/Documents/room/AQSoundscape/AQSoundscape/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "abc-grans~.maxpat",
-				"bootpath" : "~/Desktop/2023-come_terra/patchers",
+				"bootpath" : "~/Documents/room/AQSoundscape/AQSoundscape/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "abc-playlist.maxpat",
-				"bootpath" : "~/Desktop/2023-come_terra/patchers",
+				"bootpath" : "~/Documents/room/AQSoundscape/AQSoundscape/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "air_quality.maxpat",
-				"bootpath" : "~/Desktop/2023-come_terra/patchers",
+				"bootpath" : "~/Documents/room/AQSoundscape/AQSoundscape/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "airq_parse.js",
-				"bootpath" : "~/Desktop/2023-come_terra/code",
+				"bootpath" : "~/Documents/room/AQSoundscape/AQSoundscape/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "cc-by-nc.png",
+				"bootpath" : "~/Documents/room/AQSoundscape/AQSoundscape/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "checkiflock.js",
-				"bootpath" : "~/Desktop/2023-come_terra/code",
+				"bootpath" : "~/Documents/room/AQSoundscape/AQSoundscape/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clicksss~.maxpat",
-				"bootpath" : "~/Desktop/2023-come_terra/patchers",
+				"bootpath" : "~/Documents/room/AQSoundscape/AQSoundscape/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "csc-logo-white.png",
+				"bootpath" : "~/Documents/room/AQSoundscape/AQSoundscape/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "getpath.js",
-				"bootpath" : "~/Desktop/2023-come_terra/code",
+				"bootpath" : "~/Documents/room/AQSoundscape/AQSoundscape/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gran~.maxpat",
-				"bootpath" : "~/Desktop/2023-come_terra/patchers",
+				"bootpath" : "~/Documents/room/AQSoundscape/AQSoundscape/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "latlonaqi.js",
-				"bootpath" : "~/Desktop/2023-come_terra/code",
+				"bootpath" : "~/Documents/room/AQSoundscape/AQSoundscape/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "openfolder.maxpat",
-				"bootpath" : "~/Desktop/2023-come_terra/patchers",
+				"bootpath" : "~/Documents/room/AQSoundscape/AQSoundscape/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4879,7 +4942,7 @@
 			}
 , 			{
 				"name" : "windExp.js",
-				"bootpath" : "~/Desktop/2023-come_terra/code",
+				"bootpath" : "~/Documents/room/AQSoundscape/AQSoundscape/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1

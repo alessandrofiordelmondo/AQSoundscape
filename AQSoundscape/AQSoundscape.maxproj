@@ -2,8 +2,8 @@
 	"name" : "AQSoundscape",
 	"version" : 1,
 	"creationdate" : 3826959424,
-	"modificationdate" : 3826959997,
-	"viewrect" : [ 330.0, 142.0, 300.0, 500.0 ],
+	"modificationdate" : 3826962780,
+	"viewrect" : [ 67.0, 141.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -68,10 +68,25 @@
 				"kind" : "audiofile",
 				"local" : 1
 			}
+,
+			"cc-by-nc.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"csc-logo-white.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
 
 		}
 ,
 		"code" : 		{
+			"windExp.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
 			"abc-cue.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
@@ -82,22 +97,17 @@
 				"local" : 1
 			}
 ,
+			"latlonaqi.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
 			"checkiflock.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
 ,
 			"getpath.js" : 			{
-				"kind" : "javascript",
-				"local" : 1
-			}
-,
-			"latlonaqi.js" : 			{
-				"kind" : "javascript",
-				"local" : 1
-			}
-,
-			"windExp.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
