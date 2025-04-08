@@ -26,7 +26,6 @@ To run the Max/MSP patch, you will need:
 - An AirVisual API key: https://www.iqair.com
 
 ### Steps
-Here is the improved version:
 1. Paste your API key into the **apikey.txt** file located in the data folder.
 2. Open the **AQSoundscape.maxproj** file.
 3. In the project window, open the **main.maxpat** file.
