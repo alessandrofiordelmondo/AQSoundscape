@@ -1,5 +1,5 @@
 # AQSoundscape
-**5 Channels IoS Installation. Real-time Sonification of Air Quality data** (Max/MSP version)
+**Multichannel IoS Installation. Real-time Sonification of Air Quality data** (Max/MSP version)
 
 The sound content of the installation is inspired by the concept of vertical music. According to the definition by composer and music theorist Jonathan D. Kramer, vertical music refers to a composition that does not develop horizontally over time, but rather vertically.
 
